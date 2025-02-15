@@ -1540,9 +1540,9 @@ function correctDeltaY(delta) {
 function generateColor() {
     let c = HSVtoRGB(0.5, 0.96, 0.08);
     c = {
-        r: 200 / 255, // Lighter version of #9EEB21
-        g: 255 / 255, // Increased brightness
-        b: 120 / 255  // Slightly adjusted for a fresh look
+        r: 197 / 255,
+        g: 252 / 255,
+        b: 252 / 255
     }
     c.r *= 0.15;
     c.g *= 0.15;
